@@ -1,0 +1,9 @@
+[package]
+
+name = "Binary Search Tree"
+version = "0.0.1"
+authors = [ "Christian Beilschmidt <beilschmidt@mathematik.uni-marburg.de>" ]
+
+[[bin]]
+
+name = "bst"
