@@ -1,9 +1,10 @@
 [package]
-
-name = "Binary Search Tree"
+name = "binary_search_tree"
 version = "0.0.1"
 authors = [ "Christian Beilschmidt <beilschmidt@mathematik.uni-marburg.de>" ]
 
 [[bin]]
-
 name = "bst"
+
+[dependencies]
+rand = "0.3.13"
