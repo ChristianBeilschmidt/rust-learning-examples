@@ -4,7 +4,7 @@ pub struct BinarySearchTree<T> where T: PartialOrd<T> {
 }
 
 impl<T> BinarySearchTree<T> where T: PartialOrd<T> {
-	pub fn new() -> BinarySearchTree<T> {
+	pub fn new() -> Self {
 		BinarySearchTree { root: Link::Empty }
 	}
 	
@@ -25,7 +25,7 @@ struct Node<T> where T: PartialOrd<T> {
 }
 
 impl<T> Node<T> where T: PartialOrd<T> {
-	pub fn new(element: T) -> Node<T> {
+	pub fn new(element: T) -> Self {
 		Node { element: element, left: Link::Empty, right: Link::Empty }
 	}
 }
